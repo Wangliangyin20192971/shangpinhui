@@ -50,7 +50,7 @@ export const reqUserRegister = (data) => requests({ url: '/user/passport/registe
 export const reqUserLogin = (data) => requests({ url: '/user/passport/login', method: 'post', data })
 //登录成功获取用户信息
 
-
+//登录成功获取用户信息
 // api/user/passport/auth/getUserInfo get 无参数
 export const reqUserInfo = () => requests({ url: '/user/passport/auth/getUserInfo', method: 'get' })
 //退出登录
